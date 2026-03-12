@@ -228,7 +228,7 @@ function App() {
 
 
         {/* Kontak */}
-        <div className="kontak mt-32 sm:p-10 p-0" id="contact">
+        <div className="kontak mt-32 px-4 sm:px-10" id="contact">
           <h1
             className="text-4xl mb-2 font-bold text-center"
             data-aos="fade-up"
@@ -248,10 +248,11 @@ function App() {
           </p>
 
           {/* Container dua kolom */}
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
+            
 
             {/* Contact Form di kanan */}
-            <div className="flex-1">
+            <div className="w-full">
               <form
                 action="https://formsubmit.co/syahrafipradika@gmail.com"
                 method="POST"
