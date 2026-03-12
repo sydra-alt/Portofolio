@@ -255,7 +255,7 @@ function App() {
               <form
                 action="https://formsubmit.co/syahrafipradika@gmail.com"
                 method="POST"
-                className="bg-zinc-800 p-10 w-full rounded-md"
+                className="bg-zinc-800 p-6 sm:p-10 w-full rounded-md"
                 autoComplete="off"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -269,7 +269,7 @@ function App() {
                       type="text"
                       name="Name"
                       placeholder="Input Name..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md bg-zinc-700 text-white placeholder:text-zinc-400"
                       required
                     />
                   </div>
@@ -279,7 +279,7 @@ function App() {
                       type="email"
                       name="Email"
                       placeholder="Input Email..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md bg-zinc-700 text-white placeholder:text-zinc-400"
                       required
                     />
                   </div>
@@ -291,7 +291,7 @@ function App() {
                       cols="45"
                       rows="7"
                       placeholder="Message..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md bg-zinc-700 text-white placeholder:text-zinc-400"
                       required
                     ></textarea>
                   </div>
