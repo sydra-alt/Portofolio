@@ -3,9 +3,6 @@ import ProfileCard from "./components/ProfileCard/ProfileCard";
 import ShinyText from "./components/ShinyText/ShinyText";
 import BlurText from "./components/BlurText/BlurText";
 import syahrafiImg from '/assets/Syahrafi2.png';
-import ScrambledText from "./components/ScrambledText/ScrambledText";
-import SplitText from "./components/SplitText/SplitText";
-import GlassIcons from "./components/GlassIcons/GlassIcons";
 import { listTools, listProyek } from "./data";
 import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
 import ProjectModal from "./components/ProjectModal/ProjectModal"; // <-- IMPORT MODAL
@@ -311,7 +308,6 @@ function App() {
         </div>
         {/* Kontak */}
       </main>
-
       <ProjectModal
         isOpen={!!selectedProject}
         onClose={handleCloseModal}
